@@ -1,0 +1,122 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 95%);
+    height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .card {
+        flex-direction: column;
+        margin: 50px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.card {
+    width: 800px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+img {
+    width: 50px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+h2 {
+    font-family: Big Shoulders Display;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+p {
+    font-family: Lexend Deca;
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+button {
+    font-family: Lexend Deca;
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    color:hsl(0, 0%, 95%);
+}
+
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+}
+
+.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+}
+
+.sedans button {
+    color:hsl(31, 77%, 52%);
+    border-color: hsl(31, 77%, 52%);
+    border-style: solid;
+}
+
+.suvs button {
+    color:hsl(184, 100%, 22%);
+    border-color: hsl(184, 100%, 22%);
+    border-style: solid;
+}
+
+.luxury button {
+    color:hsl(179, 100%, 13%);
+    border-color: hsl(179, 100%, 13%);
+    border-style: solid;
+}
+
+.column {
+    padding: 35px;
+}
